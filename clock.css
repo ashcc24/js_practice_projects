@@ -1,0 +1,20 @@
+body{
+    background-image: url(nightsky.jpeg);
+    background-size:cover;
+}
+
+#bigclock{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    height: 100vh;
+}
+
+#time{
+    color:white;
+    font-size:6em;
+    background-color:rgba(66, 95, 127, 0.721);
+    backdrop-filter:blur(1px);
+    padding: 10px 30px;
+}
